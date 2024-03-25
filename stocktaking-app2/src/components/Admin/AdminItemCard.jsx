@@ -31,7 +31,7 @@ function AdminItemCard({
                 </Link>
 
                 <button
-                    onClick={deleteItem}
+                    onClick={() => {deleteItem(id)}}
                     className='delete-btn'
                 >
                     Delete
