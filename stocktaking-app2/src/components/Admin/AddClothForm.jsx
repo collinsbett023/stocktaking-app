@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useHistory } from 'react-router-dom'
 
 const AddClothForm = ({close}) => {
     const [image, setImage] = useState("")
@@ -9,6 +9,7 @@ const AddClothForm = ({close}) => {
     const [available, setAvailable] = useState("")
     const [price, setPrice] = useState("")
     const navigate = useNavigate()
+    const history = useHistory()
     
     function setDefaultImage(e) {
       if (image === '') {
@@ -38,7 +39,8 @@ const AddClothForm = ({close}) => {
         })
 
         alert('Cloth Item Added')
-        navigate('https://stocktaking-app2.onrender.com/admin')
+        // navigate('/admin')
+        history.goBack()
         window.location.reload()
     }
     return (
