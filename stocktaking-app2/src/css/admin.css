@@ -1,0 +1,318 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    color: black;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+    line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+    text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+.stock_items {
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.blur-background {
+    filter: blur(5px);
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* Card styling */
+.card {
+    background-color: #fff;
+    box-shadow: 5px 5px 10px #888888;
+    padding-bottom: 1rem;
+    margin-block: 2rem;
+    font-size: 0.9rem;
+    margin-inline: 1.5rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+.card-details {
+    text-align: center;
+}
+
+.img-div {
+    padding: 1rem 1rem 1rem 1.25rem;
+    display: flex;
+}
+
+.img-div img {
+    height: 18rem;
+    margin: 0 auto;
+}
+
+.card-details {
+    padding-inline: 1rem;
+    line-height: 2rem;
+}
+
+.edit-btn {
+    background-color: #438d26;
+
+    border: 2px solid #438d26;
+    text-align: center;
+}
+
+.delete-btn {
+    background-color: #b11a15;
+    border: 2px solid #b11a15;
+    text-align: center;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    margin-block: 1rem;
+}
+
+.btn-div button {
+    padding-inline: 1rem;
+    border-radius: 10px;
+}
+
+/* Add Item Button */
+.btn-add {
+    font-size: 1.5rem;
+    padding: 0.5rem 3rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+/* Search and button styling */
+.add-item {
+    text-align: right;
+    margin-block: 3rem;
+}
+
+#search-add {
+    display: flex;
+    justify-content: space-around;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    width: 25rem;
+}
+
+#search input {
+    width: 80%;
+    min-height: 3rem;
+    margin-left: 1rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 5px;
+    background: transparent;
+    color: black;
+}
+.btn-add {
+    margin-right: 2rem;
+}
+
+/* Form styling */
+
+#form-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#form {
+    position: relative;
+
+    width: 30rem;
+    height: 30rem;
+    background-color: seagreen;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+}
+
+#form input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background: #eeebeb;
+    outline: none;
+    border: 1px solid #cbcdd4;
+    border-radius: 5px;
+    color: #000;
+}
+
+#form div {
+    margin-block: 1.5rem;
+    height: 2.5rem;
+}
+
+#form {
+    height: 35rem;
+}
+
+.form-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Edit form */
+.edit-container {
+    background-color: #dfe0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+#edit-form,
+#form {
+    padding: 1.25rem 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.add-cloth-btn {
+    background-color: #438d26;
+    outline: none;
+    border: 1px solid #438d26;
+    width: 8rem;
+    text-align: center;
+}
+
+#edit-form div {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+}
+
+#edit-form div input {
+    color: black;
+    padding: 0.5rem;
+    background: #eeebeb;
+    outline: none;
+    border: 1px solid #cbcdd4;
+    border-radius: 5px;
+}
+
+#form input {
+    padding: 0.5rem;
+    background: #eeebeb;
+    outline: none;
+    border: 1px solid #cbcdd4;
+    border-radius: 5px;
+}
+
+.btn-div {
+    padding: 0.125rem;
+    display: flex;
+    align-items: center;
+}
+
+.update {
+    background-color: #438d26;
+    outline: none;
+    border: 1px solid #438d26;
+    width: 8rem;
+    text-align: center;
+}

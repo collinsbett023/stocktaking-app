@@ -1,0 +1,112 @@
+.user-container {
+    height: 100vh;
+    position: relative;
+    margin: 10px 0;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgb(206, 174, 112), #0f0f0f);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.login-box h2 {
+    margin: 0;
+    color: black;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.user-box input::placeholder {
+    color: black;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: black;
+    font-size: 12px;
+}
+
+.inputButton {
+    border: none;
+    background: black;
+    color: white;
+    padding: 12px 24px;
+    margin: 8px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.forgot-container {
+    color: rgb(13, 13, 14);
+}
+
+.forgotpassword-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 90px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgb(231, 200, 137), #101922);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: larger;
+}
+.forgotpassword-container h2 {
+    color: black;
+}
+.forgotpassword-form input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.forgotpassword-link {
+    color: black;
+}
+.error-label {
+    color: black;
+}

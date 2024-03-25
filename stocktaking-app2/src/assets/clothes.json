@@ -1,0 +1,184 @@
+{
+  "clothes": [
+    {
+      "id": "1",
+      "image": "https://static.vangraaf.com/img/adidas-originals-t-shirt-meski_pdzoom-bust_393848-0001_bustfront_1.jpg",
+      "brand": "Adidas",
+      "type": "T-shirt",
+      "size": "M",
+      "available": 20,
+      "price": 25.99
+    },
+    {
+      "id": "2",
+      "image": "https://dks.scene7.com/is/image/dkscdn/19NIKMMNSWCLBHDPJAPT_Cedar_White_White_is?wid=1400&fmt=jpg",
+      "brand": "Nike",
+      "type": "Hoodie",
+      "size": "L",
+      "available": 15,
+      "price": 39.99
+    },
+    {
+      "id": "3",
+      "image": "https://slimages.macysassets.com/is/image/MCY/products/7/optimized/16910997_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1",
+      "brand": "Puma",
+      "type": "Sneakers",
+      "size": "10",
+      "available": 30,
+      "price": 59.99
+    },
+    {
+      "id": "4",
+      "image": "https://cdna.lystit.com/photos/dandyfellow/25049-black-2b8165e5-.jpeg",
+      "brand": "Levi's",
+      "type": "Jeans",
+      "size": "32W 32L",
+      "available": 25,
+      "price": 49.99
+    },
+    {
+      "id": "5",
+      "image": "http://www.ems.com/on/demandware.static/-/Sites-vestis-master-catalog/default/dwb82bc524/product/images/1285/194/1285194/1285194_004_main.jpg",
+      "brand": "Under Armour",
+      "type": "Shorts",
+      "size": "XL",
+      "available": 18,
+      "price": 29.99
+    },
+    {
+      "id": "6",
+      "image": "https://i.pinimg.com/originals/74/cf/b0/74cfb0cd8a1ba6d01d019ad9b80728c9.jpg",
+      "brand": "Gap",
+      "type": "Dress Shirt",
+      "size": "S",
+      "available": 12,
+      "price": 34.99
+    },
+    {
+      "id": "7",
+      "image": "https://i5.walmartimages.com/asr/4369766e-dd96-4f00-85dd-ad7cc62697db_1.8d1703be2034209adcb7530f2c878ac3.jpeg",
+      "brand": "Calvin Klein",
+      "type": "Underwear",
+      "size": "M",
+      "available": 40,
+      "price": 14.99
+    },
+    {
+      "id": "8",
+      "image": "https://cdna.lystit.com/photos/8f5f-2015/10/01/hm-dark-grey-softshell-jacket-gray-product-0-453908827-normal.jpeg",
+      "brand": "H&M",
+      "type": "Jacket",
+      "size": "L",
+      "available": 10,
+      "price": 69.99
+    },
+    {
+      "id": "9",
+      "image": "https://www.repertoirefashion.co.uk/images/tommy-hilfiger-mens-white-signature-logo-slim-fit-polo-shirt-p39019-207565_zoom.jpg",
+      "brand": "Tommy Hilfiger",
+      "type": "Polo Shirt",
+      "size": "XXL",
+      "available": 22,
+      "price": 44.99
+    },
+    {
+      "id": "10",
+      "image": "https://img.giglio.com/images/prodZoom/327339.010_1.jpg",
+      "brand": "Ralph Lauren",
+      "type": "Sweater",
+      "size": "M",
+      "available": 20,
+      "price": 79.99
+    },
+    {
+      "id": 11,
+      "image": "https://static.outnorth.com/image/upload/f_auto,fl_lossy,q_auto/v1533333612/uploads/live_product_image/file/0/0/119/119153/the-north-face-m-quest-insulated-jacket.jpg",
+      "brand": "The North Face",
+      "type": "Jacket",
+      "size": "S",
+      "available": 10,
+      "price": 149.99
+    },
+    {
+      "id": 12,
+      "image": "https://m.media-amazon.com/images/I/81S8JnQ2k6L._AC_UL1500_.jpg",
+      "brand": "Reebok",
+      "type": "Running Shoes",
+      "size": "9",
+      "available": 35,
+      "price": 89.99
+    },
+    {
+      "id": 13,
+      "image": "https://s3.r29static.com/bin/entry/eae/x,80/1487638/image.jpg",
+      "brand": "Zara",
+      "type": "Coat",
+      "size": "M",
+      "available": 8,
+      "price": 119.99
+    },
+    {
+      "id": 14,
+      "image": "https://www.tennis-point.se/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4e51d027/images/020/450/04043000_000.jpg?q=80&sw=2000",
+      "brand": "ASICS",
+      "type": "Tennis Shirt",
+      "size": "L",
+      "available": 20,
+      "price": 34.99
+    },
+    {
+      "id": 15,
+      "image": "https://media.endclothing.com/media/f_auto,q_auto:eco/prodmedia/media/catalog/product/0/1/01-09-2021_AJ_710667709058_m1_1.jpg",
+      "brand": "Polo Ralph Lauren",
+      "type": "Cap",
+      "size": "One Size",
+      "available": 25,
+      "price": 19.99
+    },
+    {
+      "id": 16,
+      "image": "https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/SK4AAOSwi7RZJXhh/$_57.JPG",
+      "brand": "Gucci",
+      "type": "Belt",
+      "size": "100 cm",
+      "available": 15,
+      "price": 299.99
+    },
+    {
+      "id": 17,
+      "image": "https://i5.walmartimages.com/asr/cf22e277-0001-4907-99cf-6e850eebdbcb_1.105db4d23bdb4a841709547b1976b1be.jpeg",
+      "brand": "Vans",
+      "type": "Skate Shoes",
+      "size": "11",
+      "available": 18,
+      "price": 64.99
+    },
+    {
+      "id": 18,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/A1nc7+T7+tL._AC_UL1500_.jpg",
+      "brand": "American Eagle",
+      "type": "Jeans",
+      "size": "30W 34L",
+      "available": 30,
+      "price": 39.99
+    },
+    {
+      "id": 19,
+      "image": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/164184/item/goods_64_164184.jpg?width=2000",
+      "brand": "Uniqlo",
+      "type": "Sweatshirt",
+      "size": "M",
+      "available": 20,
+      "price": 29.99
+    },
+    {
+      "id": 20,
+      "image": "https://i5.walmartimages.com/asr/2683f796-79a5-4d9a-8c2a-cf6edb954221.f5c098366920c4488becb9a5d804b30f.jpeg",
+      "brand": "Converse",
+      "type": "Sneakers",
+      "size": "8",
+      "available": 25,
+      "price": 54.99
+    }
+  ]
+}
