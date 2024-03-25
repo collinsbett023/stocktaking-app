@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate, useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const AddClothForm = ({close}) => {
     const [image, setImage] = useState("")
@@ -39,8 +39,8 @@ const AddClothForm = ({close}) => {
         })
 
         alert('Cloth Item Added')
-        // navigate('/admin')
-        history.goBack()
+        navigate('/admin')
+    
         window.location.reload()
     }
     return (
