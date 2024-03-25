@@ -38,7 +38,7 @@ const AddClothForm = ({close}) => {
         })
 
         alert('Cloth Item Added')
-        navigate('/admin')
+        navigate('https://stocktaking-app2.onrender.com/admin')
         window.location.reload()
     }
     return (
