@@ -9,7 +9,6 @@ const AddClothForm = ({close}) => {
     const [available, setAvailable] = useState("")
     const [price, setPrice] = useState("")
     const navigate = useNavigate()
-    const history = useHistory()
     
     function setDefaultImage(e) {
       if (image === '') {
@@ -41,7 +40,6 @@ const AddClothForm = ({close}) => {
         alert('Cloth Item Added')
         navigate('/admin')
     
-        window.location.reload()
     }
     return (
         <div id='form-div'>
