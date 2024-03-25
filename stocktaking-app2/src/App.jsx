@@ -27,7 +27,6 @@ function App() {
         fetch(`https://inventory-data-6knk.onrender.com/${id}`, {
             method: 'DELETE',
         }).then((res) => (!res.ok ? console.log('Problem') : res.json()))
-        window.location.reload()
     }
 
     return (
