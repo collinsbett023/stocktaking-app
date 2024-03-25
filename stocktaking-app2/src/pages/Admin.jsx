@@ -34,9 +34,7 @@ function Admin({ clothes, deleteCloth }) {
                 size={item.size}
                 available={item.available}
                 price={item.price}
-                deleteItem={
-                    deleteCloth()
-                }
+                deleteItem={ deleteCloth}
             />
         </div>
     ))

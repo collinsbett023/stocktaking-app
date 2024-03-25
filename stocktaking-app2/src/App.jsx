@@ -24,7 +24,7 @@ function App() {
 
     //DELETE Method
     const deleteClothes = (id) => {
-        fetch(`https://inventory-data-6knk.onrender.com/${id}`, {
+        fetch(`https://inventory-data-6knk.onrender.com/clothes/${id}`, {
             method: 'DELETE',
         }).then((res) => (!res.ok ? console.log('Problem') : res.json()))
     }
